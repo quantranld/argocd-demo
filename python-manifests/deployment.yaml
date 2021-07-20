@@ -21,7 +21,7 @@ spec:
         app: python-helloworld
     spec:
       containers:
-      - image: quantranxd/python-helloworld:latest 
+      - image: quantranxd/python-helloworld:latest
         imagePullPolicy: IfNotPresent
         name: python-helloworld
         resources:
